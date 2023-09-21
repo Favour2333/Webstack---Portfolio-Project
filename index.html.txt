@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+      <label class="logo"><a href="#logo">kingsley<sup>F</sup></a></label>
+         <ul>
+          <li><a class="active" href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+         </ul> 
+  </nav>
+  <section id="logo" class="header">
+    <div class="black"></div>
+    <div class="white"></div>
+      <div class="head">
+        <img class="k-logo" src="pic Assets/Dashboard/IMG_20221225_171756_590 (2)_cleanup.jpg" alt="kingsley-logo">
+        <div class="lists">
+           <p  class="pp">Hello I'm</p>
+           <h2 class="hh">Kingsley Favour</h2>
+           <p class="typing-effect">FrontEnd Developer</p>
+           <p class="cv"><a  href="images/Resume-best.pdf" target="_blank">Download CV</a></p>
+           <p class="contact"><a href="#contact">Contact Info</a></p>
+           <div class="social-item">
+            <a class="social-link" href="https://github.com/Favour2333" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+          <div class="social-item">
+            <a class="social-link" href="https://www.linkedin.com/in/favour-kingsley-20a725270/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section id="about" class="about">
+    <div class="about-me">
+      <img src="images/IMG_20230514_115314_288.jpg" alt="">
+      <div class="know-more">
+       <p>Get To Know More</p>
+       <h1>About Me</h1>
+      </div>
+      <div class="container">
+        <h2 class="about-title">I Develop & Create Future website.</h2>
+            <p class="about-text">
+              I am proficient in various technologies and languages,
+              <br> enabling me to develop and create future websites. <br> I strive to deliver modern and user-friendly digital experiences.
+            </p>
+          </div>
+          <div class="boxx1">
+            <h1>Experience</h1>
+            <p>2+ years</p>
+            <p>Frontend Development</p>
+          </div>
+          <div class="boxx2">
+            <h1>Education</h1>
+            <p>B.Sc. Bachelors Degree</p>
+            <p>Computer Science</p>
+          </div>
+    </div>
+  </section>
+  <section id="experience" class="experience">
+     <div class="exp">
+       <p>Explore My</p>
+       <h1>Experience</h1>
+     </div>
+     <div class="box1">
+       <h2>Frontend Development</h2>
+       <p class="html"> 
+        <i class='far servicesIcon fa-check-circle'></i>
+          HTML 
+         <br> Experienced
+        </p>
+       <p class="html"> 
+        <i class='far servicesIcon fa-check-circle'></i>
+          SASS 
+         <br>Intermediate
+        </p>
+       <p class="html"> 
+        <i class='far servicesIcon fa-check-circle'></i>
+          React 
+         <br>Intermediate
+        </p>
+       <p class="css"> 
+        <i class='far servicesIcon fa-check-circle'></i>
+          Css 
+         <br>Experienced
+        </p>
+       <p class="css"> 
+        <i class='far servicesIcon fa-check-circle'></i>
+          Javascript 
+         <br>Experienced
+        </p>
+       <p class="css"> 
+        <i class='far servicesIcon fa-check-circle'></i>
+          Material UI 
+         <br>Intermediate
+        </p>
+      
+     </div>
+     <div class="box2">
+      <h2>Backend Development</h2>
+      <p class="Node">
+        <i class='far servicesIcon fa-check-circle'></i>
+        Node JS
+        <br>Intermediate
+      </p>
+      <p class="Node">
+        <i class='far servicesIcon fa-check-circle'></i>
+        Php
+        <br>Intermediate
+      </p>
+      <p class="Node">
+        <i class='far servicesIcon fa-check-circle'></i>
+        Git
+        <br>Intermediate
+      </p>
+     </div>
+  </section>
+  <section id="projects" class="projects">
+    <div class="my-projects">
+      <div class="browse">
+        <p class="ppp">
+          Browse My Recent
+        </p>
+        <h1 class="hhh">
+          Projects
+        </h1>
+      </div>
+      <!-- Swiper -->
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="pic Assets/Dashboard/246i-wtt.jpg" alt="">
+        <p>Project One</p>
+        <a class="github" href="https://github.com/Favour2333" target="_blank">Github</a>
+        <a class="demo" href="https://favour2333.github.io/weatherforecast/">Live Demo</a>
+      </div>
+      <div class="swiper-slide">
+        <img src="pic Assets/Dashboard/cal-1-pic.webp" alt="">
+        <p>Project Two</p>
+        <a class="github" href="https://github.com/Favour2333" target="_blank">Github</a>
+        <a class="demo" href="">Live Demo</a>
+      </div>
+      <div class="swiper-slide">
+        <img src="pic Assets/Dashboard/e-com-3-pic.webp" alt="">
+        <p>Project Three</p>
+        <a class="github" href="https://github.com/Favour2333" target="_blank">Github</a>
+        <a class="demo" href=" https://favour2333.github.io/E-commerce-website/">Live Demo</a>
+      </div>
+      <div class="swiper-slide">
+        <img src="pic Assets/Dashboard/memo-2p-pic.jpg" alt="">
+        <p>Project Four</p>
+        <a class="github" href="https://github.com/Favour2333" target="_blank">Github</a>
+        <a class="demo" href=" https://favour2333.github.io/fun-memory-game/">Live Demo</a>
+      </div>
+      <div class="swiper-slide">
+        <img src="pic Assets/Dashboard/meme-icon.webp" alt="">
+        <p>Project Five</p>
+        <a class="github" href="https://github.com/Favour2333" target="_blank">Github</a>
+        <a class="demo" href="https://favour2333.github.io/meme-generator/">Live Demo</a>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination" style="color: black;"></div>
+    <!-- Add Navigation -->
+    <div class="swiper-button-prev" style="color: black;"></div>
+    <div class="swiper-button-next" style="color: black;"></div>
+  </div>
+    </div>
+  </section>
+  <section id="contact" class="contact-me">
+      <div class="con">
+        <div class="text">
+          <p>Get in Touch</p>
+          <h1>Contact Me</h1>
+        </div>
+        <div class="email">
+          <p>
+            <i class="fas fa-envelope">
+            Kingsleyfavour999@gmail.com
+            </i>
+            <i class="fas fa-envelope">
+             linkedin
+            </i>
+          </p>
+        </div>
+        <div class="footer-link">
+          <a href="#about">
+            About
+          </a>
+          <a href="#experience">
+            Experience
+          </a>
+          <a href="#projects">
+           Projects
+          </a><a href="#contact">
+           Contact
+          </a>
+          <p class="copy">copyright &copy; 2023 Kingsley Favour All Rights Reserved</p>
+        </div>
+      </div>
+  </section>
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
